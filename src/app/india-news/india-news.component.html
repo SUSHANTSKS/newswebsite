@@ -1,0 +1,12 @@
+<div class="container" *ngFor="let news of indiaNewsRes.articles">
+  <img class="image"  src={{news.urlToImage}} alt="Image Not Found" />
+  <div class="text">
+    <h2>{{news.title}}</h2>
+
+    <h3><span style="font-weight: bold;font-size: large;">news by:</span>{{news.author}}</h3>
+    <h3><span style="font-weight: bold;font-size: large;">Published At:</span>{{news.publishedAt}}</h3>
+    <p>{{news.description}} </p>
+    <p>read more at:<a href={{news.url}} target="_blank">{{news.url}}</a> </p>
+
+  </div>
+</div>

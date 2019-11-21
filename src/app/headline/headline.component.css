@@ -1,0 +1,39 @@
+
+
+
+  body {
+    padding: 50px;
+}
+
+.container {
+    /* border: 3px solid blue;
+    padding: 20px 40px 40px;
+    max-width: 600px; */
+
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+      margin-left: 10%;
+      background-color: gainsboro;
+      border-radius: 15px;
+}
+    .image {
+        width: 250px;
+        margin: 30px 30px 30px 0;
+        float: left;
+     
+   
+    }
+    /* .image:nth-child(odd) {
+      float: left;
+   } */
+  
+  /* .image:nth-child(odd) {
+    float: right;
+  } */
+  
+    .text {
+        display: inline;
+    }
+  
+  
